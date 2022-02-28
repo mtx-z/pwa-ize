@@ -23,7 +23,7 @@ const ManifestGenerator = {
       {
         background_color: "white",
         description: `${title} as standalone app (PWA)`,
-        display: "fullscreen",
+        display: "standalone",
         name: `${title}`,
         short_name: `${title}`,
         // try as many sizes as possible
