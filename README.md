@@ -6,7 +6,7 @@ Transform any website into a PWA that feels like a regular mobile application.
 **➙ https://derlin.github.io/pwa-ize ✨**
 
 
-## What is it ?
+## What is it ? 
 
 PWA-ize is a simple app that can turn any website into a PWA (**P**rogressive **W**eb **A**pp).
 When adding a PWA to your mobile phone's homescreen (using _Settings_ ➙ "_Add to home screen_"),
