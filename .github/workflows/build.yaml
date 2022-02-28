@@ -2,7 +2,7 @@ name: Build (and deploy)
 on:
   push:
     branches-ignore:
-      - gh-pages
+      - liz-gh-page
   pull_request:
     branches:
       - "*"
@@ -26,7 +26,7 @@ jobs:
 
       - name: deploy
         if: success() && github.ref == 'refs/heads/main'
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: JamesIves/github-pages-deploy-action@4.2.5
         with:
-          branch: gh-pages
+          branch: liz-gh-page
           folder: dist
